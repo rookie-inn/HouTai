@@ -1,0 +1,43 @@
+{
+  "name": "team-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "echarts": "^4.1.0",
+    "element-react": "^1.4.32",
+    "element-theme-default": "^1.4.13",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa2": "^2.0.0-alpha.7",
+    "prop-type": "0.0.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.1",
+    "telement": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://192.168.137.1:8000",
+  "devDependencies": {
+    "highcharts": "^7.0.3",
+    "react-highcharts": "^16.0.2"
+  }
+}
